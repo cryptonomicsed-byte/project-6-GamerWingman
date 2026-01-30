@@ -1,0 +1,32 @@
+{
+  "name": "gamerwingman",
+  "version": "1.0.0",
+  "description": "GamerWingman - Your AI gaming companion for Android",
+  "main": "index.js",
+  "scripts": {
+    "dev": "firebase emulators:start",
+    "deploy": "firebase deploy",
+    "deploy:functions": "firebase deploy --only functions",
+    "deploy:firestore": "firebase deploy --only firestore",
+    "logs": "firebase functions:log",
+    "clean": "rm -rf build/ Temp/ Library/",
+    "build:apk": "unity -batchmode -buildTarget Android -executeMethod BuildScript.BuildAPK",
+    "test": "echo \"No tests configured yet\" && exit 0"
+  },
+  "keywords": [
+    "gaming",
+    "companion",
+    "android",
+    "unity",
+    "firebase",
+    "ai"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "firebase-tools": "^12.0.0"
+  },
+  "dependencies": {
+    "firebase": "^10.0.0"
+  }
+}

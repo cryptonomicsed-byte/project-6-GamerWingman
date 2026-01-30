@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG ! tag:yaml.org,2002:
+--- !u!129 &1
+PlayerSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 23
+  productName: GamerWingman
+  productionCompanyName: Your Company
+  companyName: Your Company
+  cloudEnabled: 1
+  cloudProjectId: gamerwingman-dev
+  defaultCursor: {fileID: 0}
+  cursorHotspot: {x: 0, y: 0}
+  m_SplashScreenStyle: 1
+  m_ShowUnitySplashScreen: 1
+  m_ShowUnitySplashLogo: 1
+  m_SplashScreenAnimation: 1
+  m_SplashScreenAnimationIntroductionDuration: 0
+  m_SplashScreenAnimationAdditionalDuration: 0
+  textureFilteringQuality: 0
+  m_AndroidUseSwappy: 1
+  m_AndroidBlitType: 0
+  androidStartInFullscreen: 1
+  androidRenderOutsideSafeArea: 1
+  androidUseAndroidTV: 0
+  androidMaxAspectRatio: 2.1
+  androidMinAspectRatio: 1
+  androidFullscreenMode: 1
+  defaultIsNativeResolution: 1
+  macRetinaSupport: 1
+  runInBackground: 1
+  captureSingleScreen: 0
+  graphicsJobMode: 0
+  graphicsJobWorkerCount: -1
+  textureStreamingEnabled: 1
+  textureStreamingVramBudget: 0
+  textureStreamingMemoryBudget: 0
+  textureStreamingPoolSize: 2147483647
+  textureStreamingDebugSettings:
+    m_NumPreloadedMips: 0
+    m_MemoryBudgetAssignmentMode: 0
+  framebufferDepthMemorylessMode: 0
+  vrSettings:
+    renderDelegateClassName: 
+    enableSnapdragonPlaybackDS: 0
+    stereorenderingPath: 0
+    oculus:
+      sharedDepthBuffer: 1
+      dashSupport: 0
+      lowLatencyPerceptionCapabilityTarget: 0
+      protectedContext: 0
+      v2Signing: 0
+      useStabilizedRenderingRate: 0
+      needsSrgbFrameBufferSupport: 0
+    seenMetaXRFeatures: 0
+    hololens:
+      depthBufferSharingEnabled: 0
+      holographicRemotingEnabled: 0
+      renderPassEnabled: 0
+    magicLeap:
+      frameTiming: 0
+  androidPlatformProperties:
+    androidInitPreloadedAssets: []
+    androidMaximumAspectRatio: 2.1
+    androidMinimumAspectRatio: 1
+    androidTargetApiLevel: 34
+    androidTargetSdkVersion: 34
+  targetDevice: 0
+  useOnDemandResources: 0
+  accelerometerFrequency: 60
+  compressDefaultTextures: 0
+  forceGPUSkinning: 0
+  forceFastBlinnPhong: 0
+  useDXT5compression: 0
+  LODStripping: 0
+  streamingMipmapsActive: 0
+  streamingMipmapsAddAllCameras: 0
+  streamingMipmapsMemoryBudget: 512
+  streamingMipmapsRenderersPerFrame: 512
+  streamingMipmapsMaxLevelReduction: 2
+  streamingMipmapsMaxFileIORequests: 1024
+  editorLoadingOfExtraUnityStreamingAssets: 0
+  preloadedAssets: []
+  metroInputSource: 0
+  wsaTransparentSwapchain: 0
+  usingXboxOne: 0
+  m_HolographicPauseOnTrackingLoss: 1
+  enableLegacyInputManagerSupport: 1
+  apiCompatibilityLevel: 6
+  activeInputHandler: 2
+  windowsGamepadBackendHint: 0
+  operatingSystem: 25
+  captureSingleScreen: 0
+  resizableWindow: 0
+  useMacAppStoreValidation: 0
+  macAppStoreCategory: public.app-category.games
+  displayResolutionDialog: 1
+  version: 1.0.0
+  bundleVersion: 1
+  preloadedAssets: []
+  metroInputSource: 0
+  wsaTransparentSwapchain: 0
+  m_MTRendering: 1
+  mobileRenderingPath: 1
+  androidMinSdkVersion: 31
+  androidTargetSdkVersion: 34
+  androidPreferredInstallLocation: 0
+  androidBuildSubtarget: 0
+  androidGamepadSupportLevel: 1
+  resolutionDialogBanner: {fileID: 0}
+  m_BuildTargetIcons: []
+  m_BuildTargetBatching: []
+  m_BuildTargetGraphicsAPIs:
+  - m_BuildTarget: 2
+    m_APIs: 020000000b000000
+    m_Automatic: 1
+  m_BuildTargetVRSettings: []
+  openGLRequireES31: 0
+  openGLRequireES31AEP: 0
+  openGLRequireES32: 0
+  m_PolygonOffset: 0
+  xboxOneMonoLoggingLevel: 0
+  xboxOneLoggingLevel: 1
+  logObjCUncaughtExceptions: 1
+  enableCrashReportAPI: 0
+  cameraUsageDescription: For avatar customization
+  locationUsageDescription: 
+  microphoneUsageDescription: For voice commands and squad chat
+  bluetoothUsageDescription: 
+  switchNetServiceConfig: 0
+  switchLoggingLevel: 0
+  switchScreenResolutionBehavior: 0
+  switchUseCPURenderer: 0
+  switchEnableFileAccessLogging: 0
+  switchClipControllerOnDock: 1
+  switchSwitchboard: 1
+  switchJitCpuCount: -1
+  switchMaximizeScreenResolution: 1
+  switchMainThreadCore: 1
+  switchEnableRamDisk: 0
+  switchDataLossDialog: 1
+  switchRingLibVersion: 0
+  switchLcdScreen: 0
+  switchAllowScreenCapture: 1
+  switchAllowCrashDump: 1
+  switchSupportLanguage:
+  - 0
+  switchNativeFsCacheSize: 32
+  switchIsHoldType握力Game: 0
+  switchSupportedNpadStyles: 15
+  switchNativeFsCacheSize: 32
+  switchIsHoldType握力Game: 0
+  switchConvertRtcUserId: 0
+  switchRtcQualityMode: 0
+  switchMediaEnginePlaybackMode: 0
+  switchEnableAsync: 0
+  switchEnableAsyncDebug: 0
+  switchEnableTurboAdpcm: 0
+  switchDisableRomMount: 0
+  switchEnableIndirectMainRpc: 0
+  switchEnableGameCardGpio: 0
+  switchDarwinSwapLevel: 0
+  switchMainThreadStackSize: 8388608
+  switchPresenceGroupId: 
+  switchLoggingLevel: 0
+  switchSystemProfilingEnabled: 0
+  switchRepresentation: 0
+  switchUseMicroSleepForIdle: 0
+  switchEnableSettingsButton: 0
+  switchEnableControllerTemperatureApi: 0
+  ps4NPAgeRating: 12
+  ps4NPTitleSecret: 
+  ps4NPTrophyPackPath: 
+  ps4ParentalLevel: 11
+  ps4ContentID: A1A1A1A100000000000000000000000000000000
+  ps4Category: 0
+  ps4MasterVersion: 01.00
+  ps4AppVersion: 01.00
+  ps4Languages:
+  - ja
+  - en
+  ps4VideoMemoryForVideo: 0
+  ps4VideoOutPixelFormat: 0
+  ps4VideoOutInitialWidth: 1920
+  ps4VideoOutBaseModeInitialWidth: 1920
+  ps4VideoOutReprojectionRate: 60
+  ps4PronunciationXMLPath: 
+  ps4SharingFilePath: 
+  ps4SharedMemoryStackSize: 2048
+  ps4SeamlessOffGameTransitionsEnabled: 0
+  ps4standaloneLoggingLevel: 0
+  ps4ConsoleLanguage: 1
+  ps4ConsoleRegionUsedForNetService: 0
+  ps4IsTrialLicense: 0
+  ps4ExtraScrambledData: 0
+  ps4Passcode: fromiocl
+  ps4UseDebugIl2cppLibs: 0
+  ps4UseAuthenticationCodeForDrm: 0
+  ps4UseDeltaODDs: 0
+  ps4GMECompliance: 0
+  ps4EnableGDCLogging: 0
+  ps4Data:
+    Ignorefile: 
+    ignorefile: 
+  splashScreenBackgroundSourceLandscape: {fileID: 0}
+  splashScreenBackgroundSourcePortrait: {fileID: 0}
+  splashScreenBackgroundSourceLandscapeUHD: {fileID: 0}
+  splashScreenBackgroundSourcePortraitUHD: {fileID: 0}
+  m_SplashScreenLogoPNG: {fileID: 0}
+  m_SplashScreenLogoPNGUHD: {fileID: 0}
+  videoMemoryForVertexBuffers: 0
+  m_ApiCompatibilityLevel: 6
+  m_RenderingPath: 1
+  m_ActiveColorSpace: 0
+  m_MTRendering: 1
+  mipStripping: 0
+  numberOfMipmapLevelsToStrip: 0

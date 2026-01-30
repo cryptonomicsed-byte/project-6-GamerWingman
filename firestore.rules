@@ -1,0 +1,32 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Anonymous users can only read/write their own documents
+    match /users/{userId} {
+      allow read, write: if request.auth.uid == userId;
+      
+      // Sessions are user-specific
+      match /sessions/{sessionId} {
+        allow read, write: if request.auth.uid == userId;
+      }
+      
+      // Friends list (public, but individual operations authenticated)
+      match /friends/{friendId} {
+        allow read: if request.auth.uid == userId;
+        allow write: if request.auth.uid == userId;
+      }
+    }
+    
+    // Public leaderboards (read-only for all)
+    match /leaderboards/{leaderboardId} {
+      allow read: if request.auth != null;
+      allow write: if false;
+    }
+    
+    // Matchmaking queue (temporary documents)
+    match /matchmaking_queue/{queueId} {
+      allow create: if request.auth != null;
+      allow read, delete: if request.auth.uid == resource.data.userId;
+    }
+  }
+}
